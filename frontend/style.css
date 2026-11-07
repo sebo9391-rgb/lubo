@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding-top: 50px;
+    min-height: 100vh; /* Stellt sicher, dass der Body mindestens die Höhe des Viewports hat */
+    background-image: url('bild.jpg');
+    background-size: cover; /* Passt das Bild an den Bildschirm an, sodass es diesen komplett ausfüllt */
+    background-position: center; /* Zentriert das Bild auf dem Bildschirm */
+    background-repeat: no-repeat; /* Verhindert, dass sich das Bild wiederholt */
+    background-attachment: fixed; /* Lässt das Bild beim Scrollen an Ort und Stelle */
+}
+
+h1 {
+    color: #0066cc;
+}
